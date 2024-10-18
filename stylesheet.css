@@ -1,0 +1,159 @@
+.TitleHead {
+  border-color: black;
+  height: auto;
+  background: rgb(38, 41, 46);
+  padding-left: 15%;
+  padding-top: 1px;
+  color: white;
+  font-family: Monotype Corsiva;
+  font-size: large;
+}
+.SocialFlex {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+.SocialIcons img {
+  height: auto;
+  float: right;
+  width: 40px;
+}
+.SocialIcons {
+  clear: both;
+  position: absolute;
+  top: 30px;
+  right: 90px;
+  bottom: 30px;
+  gap: 40px;
+}
+.WelcomeFlex {
+  padding-top: 20px;
+  display: flex;
+  background: rgb(231, 113, 139);
+  column-gap: 70px;
+}
+.Welcomeheadtext {
+  color: white;
+  width: 34%;
+  margin-left: 14%;
+  text-align: left;
+}
+.Welcomebutton {
+  text-align: left;
+}
+.Welcomebutton button {
+  background: rgb(75, 75, 75);
+  font-size: 20px;
+  border-radius: 8px;
+  color: white;
+}
+.Welcomebutton button:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+.LaptopImage img {
+  width: 120%;
+  height: auto;
+  padding-bottom: 10px;
+}
+.BodySection1Flex {
+  border-bottom-style: solid;
+  display: flex;
+  background: rgb(244, 244, 246);
+  border-bottom-color: rgb(251, 226, 232);
+  border-bottom-width: 6px;
+}
+.Section1A {
+  width: 40%;
+  margin-left: 10%;
+  background: rgb(244, 244, 246);
+}
+.Section1A h3 {
+  font-family: Georgia, serif;
+  font-size: 25px;
+  word-spacing: 2px;
+  font-weight: 700;
+}
+.Section1B {
+  width: 40%;
+  margin-left: 10%;
+  background: rgb(244, 244, 246);
+}
+.Section1B h3 {
+  font-family: Georgia, serif;
+  font-size: 25px;
+  word-spacing: 2px;
+  font-weight: 700;
+}
+.Section1C {
+  width: 40%;
+  margin-left: 10%;
+  background: rgb(244, 244, 246);
+}
+.Section1C h3 {
+  font-family: Georgia, serif;
+  font-size: 25px;
+  word-spacing: 2px;
+  font-weight: 700;
+}
+.BodySection2Flex {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  column-gap: 8%;
+  width: 64%;
+  margin-left: 11%;
+}
+.BodySection2Grid {
+  max-width: 600px;
+  margin: auto;
+}
+.Section2Head {
+  margin-top: 20px;
+  padding-left: 8%;
+}
+.Section2icons {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 30px;
+  row-gap: 30px;
+  margin: 20px;
+}
+.Section2icons div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+.Section2icons img {
+  max-width: 100%;
+  height: auto;
+  margin: 20px;
+  -webkit-box-shadow: 0px 10px 13px -7px #000000,
+    0px 18px 15px 10px rgba(0, 0, 0, 0.16);
+  box-shadow: 0px 10px 13px -7px #000000, 0px 18px 15px 10px rgba(0, 0, 0, 0.16);
+}
+.Section2Text {
+  width: 30%;
+  margin-right: 47px;
+}
+.FooterText {
+  background: rgb(38, 41, 46);
+  border-style: solid;
+  color: white;
+}
+.FooterSocialFlex {
+  display: flex;
+}
+.FooterSocialIcons img {
+  border-style: solid;
+  border-color: blue;
+  width: 4%;
+  height: auto;
+  float: right;
+}
+.FooterSocialIcons {
+  position: relative;
+  right: 90px;
+  bottom: 40px;
+}
